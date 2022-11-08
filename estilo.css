@@ -5,3 +5,36 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
+#capas{
+    width: 100%;
+    height: 800px;
+}
+
+#parallax{
+}
+
+.divImagen{
+ 
+}
+.img{
+    width: 20%;
+    height: 20%;
+}
+.imagenArt{
+    width: 20%;
+    height: 20%;
+}
+
+.contenidoTexto{
+    height: 500%;
+}
+
+.parrafo{
+height: 55%;
+}
+
+.menu{
+    /* width: 23%;
+    height: 23%; */
+}
