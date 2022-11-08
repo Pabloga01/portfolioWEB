@@ -42,3 +42,9 @@
     /* width: 23%;
     height: 23%; */
 }
+
+
+
+.text-responsive {
+    font-size: calc(6% + 1vw + 1vh);
+  }
