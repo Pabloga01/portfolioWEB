@@ -8,7 +8,7 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
 <body>
@@ -32,10 +32,10 @@
 
 
 
-    <section id="cabecera" class=" col-12 row mb-5 mx-0  ">
-        <article id="articulo1" class="d-flex justify-content-center col-xs-12 col-sm-12 col-md-4 px-0">
+    <section id="cabecera" class=" col-12 row mb-5 mx-0  mt-4 ">
+        <article id="articulo1" class="d-flex justify-content-center col-xs-12 col-sm-12 col-md-4 px-0 ">
             <div id="imagenArt" class="d-flex justify-content-center col-xs-10 col-sm-10 col-md-10 ">
-                <img src="./img/avatar.png" class="col-xs-10 col-sm-8 col-md-10  border border-3 grey rounded ">
+                <img src="./img/avatar.png" class="col-xs-10 col-sm-6 col-md-10 mb-4  border border-3 grey rounded ">
             </div>
         </article>
 
@@ -50,51 +50,86 @@
             <nav id="menu" class=" row col-xs-12 col-sm-12 col-md-10 navbar navbar-expand-lg mx-1">
                 <ul class="nav nav-pills col-md-12 justify-content-center text-center text-light ">
                     <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link"
-                            href="#">Proyectos</a></li>
-                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link" href="#">Sobre mí</a>
+                            href="./proyecto.html">Proyectos</a></li>
+                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link"
+                            href="#">Sobre mí</a>
                     </li>
-                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link" href="#">Hobbies</a>
+                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link"
+                            href="#">Hobbies</a>
                     </li>
-                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link" href="#">DAM</a></li>
+                    <li class=" menu nav-item col-md-2 bg-dark mr-1"><a style="color: #c0cab6" class="nav-link"
+                            href="#">DAM</a></li>
                 </ul>
             </nav>
         </article>
     </section>
 
-    <section id="articulos" class="container ">
-        <article id="art1" class=" mt col-xs-10 col-sm-12 col-md-12  ">
-            <div id="img1" class="d-flex justify-content-center  col-xs-10 col-sm-12 col-md-12 ">
-                <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
-            </div>
-            <div id="texto" class="">
-                <p class="parrafo"
-                    style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
-                    Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
-            </div>
+    <section id="articulos" class=" container ">
+        <article id="art1" class="art mt col-xs-10 col-sm-12 col-md-12 ">
+            <a href="./proyecto.html">
+                <div id="img1" class="  d-flex justify-content-center  col-xs-10 col-sm-12 col-md-12 ">
+                    <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
+                </div>
+                <div id="texto" class="">
+                    <p class="parrafoArticulo font-size-lg text-responsive"
+                        style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
+                        Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
+                </div>
+            </a>
         </article>
-        <article id="art2" class="mt-5 col-xs-12 col-sm-12 col-md-12 ml-4 ">
-            <div id="img2" class="d-flex justify-content-center  col-xs-12 col-sm-12 col-md-12 s">
-                <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
-            </div>
-            <div id="texto" class="">
-                <p class="parrafo"
-                    style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
-                    Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
-            </div>
+        <a href="./proyecto.html">
+            <article id="art2" class="art mt-5 col-xs-12 col-sm-12 col-md-12 ml-4 ">
+                <div id="img2" class="d-flex justify-content-center  col-xs-12 col-sm-12 col-md-12 s">
+                    <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
+                </div>
+                <div id="texto" class="">
+                    <p class="parrafoArticulo font-size-lg text-responsive"
+                        style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
+                        Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
+                </div>
+        </a>
         </article>
-        <article id="art3" class="mt-5 col-xs-12 col-sm-12 col-md-12 ml-4 ">
-            <div id="img2" class="d-flex justify-content-center  col-xs-12 col-sm-12 col-md-12 s">
-                <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
-            </div>
-            <div id="texto" class="">
-                <p class="parrafo"
-                    style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
-                    Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
-            </div>
+        <a href="#">
+            <article id="art3" class="art mt-5 col-xs-12 col-sm-12 col-md-12 ml-4 ">
+                <div id="img2" class="d-flex justify-content-center  col-xs-12 col-sm-12 col-md-12 s">
+                    <img src="./img/contenido.webp" class=" img w-100 border border-3 grey rounded ">
+                </div>
+                <div id="texto" class="">
+                    <p class="parrafoArticulo font-size-lg text-responsive"
+                        style="color : black ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
+                        Nullamlacus dui ipsum conseque loborttis non euisque mmorbi penas dapibulum orna.</p>
+                </div>
+        </a>
         </article>
     </section>
+    <footer class="footerCompleto container mt-5 ">
+        <div class="footer  mt col-xs-10 col-sm-12 col-md-12 ">
+            <div class="footer-uno d-flex flex-column justify-content-center ">
+                <a href="#" class="footer-logo__text w-inline-block d-flex justify-content-center ">
+                    <img
+                        src="https://assets.website-files.com/5dbaec16f510ee7b1c0004d6/5dcc6889e62de159824c8a0b_logo-footer-pink.svg">
+                    <div class="logoFooter">
+                        Pablo
+                        <br>
+                        Garcia
+                    </div>
+                </a>
+                <div class="spc spc-50"></div>
+                <a href="#" class="btn btnFooter mx-5 mt-3">Contacto</a>
+            </div>
+            <div class="footer-dos">
+                <div class="footer-nav"><a href="/" aria-current="page" class="footer-link">Home</a><a href="/all-work"
+                        class="footer-link">client Work</a><a href="#" class="footer-link">Our
+                        Products</a><a href="/about" class="footer-link">About</a></div>
+            </div>
+            <div class="footer-tres">
+
+            </div>
+        </div>
+    </footer>
+
     <script>
-       document.querySelectorAll("*").forEach(function (elemento) { elemento.style.border = "1px solid red" });
+       //document.querySelectorAll("*").forEach(function (elemento) { elemento.style.border = "1px solid red" });
     </script>
 </body>
 

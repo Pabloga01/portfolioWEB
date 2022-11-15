@@ -6,6 +6,14 @@
     margin-right: 20%;
 }
 
+.art{
+    border: solid;
+    border-color:#01202E ;
+    border-radius: 0%;
+    border-width: 1px;
+    color: #C0C4C6;
+}
+
 #articulo2 {
 
 
@@ -37,14 +45,23 @@
 .parrafo {
     height: 55%;
 }
-
+.parrafoArticulo{
+    text-align: center;
+}
 .menu {
     /* width: 23%;
     height: 23%; */
 }
 
-
-
 .text-responsive {
     font-size: calc(6% + 1vw + 1vh);
-  }
+}
+
+
+.btnFooter{
+    border-color:#01202E ;
+    border-radius: 0%;
+    border-width: 5px;
+    background-Color: #012332;
+    color: #C0C4C6;
+}
