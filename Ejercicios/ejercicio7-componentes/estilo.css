@@ -1,0 +1,97 @@
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.imgPlaca {
+    width: 40%;
+    height: 40%;
+}
+
+
+.imgGrafica {
+    width: 20%;
+    height: 12%;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+.imgCpu {
+    width: 9%;
+    height: 18%;
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+
+.imgRam {
+    width: 15%;
+    height: 4%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.imgFuente {
+    width: 12%;
+    height: 16%;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+
+.imgPlaca:hover ~ .imgCpu {
+    animation: moverCpu 3s forwards;
+}
+
+.imgPlaca:hover ~ .imgFuente {
+    animation: moverFuente 3s forwards;
+
+}
+
+.imgPlaca:hover~.imgGrafica {
+    animation: moverGrafica 3s forwards;
+
+}
+
+.imgPlaca:hover~.imgRam {
+    animation: moverRam 3s forwards;
+}
+
+@keyframes moverRam {
+    0% {}
+
+    100% {
+        top: 64%;
+        left: 39%;
+    }
+}
+
+@keyframes moverCpu {
+    0% {}
+
+    100% {
+        top: 10%;
+        left: 45%;
+    }
+}
+
+@keyframes moverGrafica {
+    0% {}
+
+    100% {
+        top: 53.5%;
+        left: 38%;
+    }
+}
+
+@keyframes moverFuente {
+    0% {}
+
+    100% {
+        top: 57.5%;
+        left: 69.5%;
+    }
+}
