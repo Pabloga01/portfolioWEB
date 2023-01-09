@@ -1,0 +1,297 @@
+#contenedor {
+    /* width: 100%;*/
+    height: 20em;
+}
+
+
+
+
+#headerPrincipal {
+    background-color: #012332;
+    color: #C0C4C6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 90px;
+}
+
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+#cabecera {}
+
+
+
+
+
+#cab_articulo {
+    display: flex;
+    flex-direction: row;
+}
+
+#titulocont {
+    width: 100%;
+
+}
+
+#subtitulo {
+    width: 100%;
+}
+
+#texto {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.parrafoArticulo {}
+
+
+
+
+
+
+
+
+#toggle {
+    display: none;
+}
+
+
+.hamburger {
+    position: absolute;
+    top: 3.85em;
+    right: 5%;
+    margin-left: -2em;
+    margin-top: -45px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+}
+
+.hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #f8982b;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover .hamburger div {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.hamburger:hover div {
+    background-color: aliceblue;
+}
+
+
+
+.navH {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #012332;
+    top: -100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+    z-index: 10;
+}
+
+.hamburger {
+    z-index: 11;
+}
+
+.navH-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+nav {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.navH a {
+    position: relative;
+    text-decoration: none;
+    color: #f8982b;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.navH a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.navH a:hover {
+    color: white;
+}
+
+.navH a:hover:before {
+    height: 100%;
+}
+
+/**
+  Animations
+  * */
+#toggle:checked+.hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+}
+
+#toggle:checked+.hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+#toggle:checked+.hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+}
+
+#toggle:checked+.hamburger+.nav {
+    top: 0;
+    transform: scale(1);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+body{
+
+}
+.art {
+    background-color: #e1e6e9;
+    background: linear-gradient(45deg, #aad1f1, #c0ebe6);
+
+    /*  border: 1px solid black;*/
+}
+
+
+article {
+    display: flex;
+    justify-content: end;
+}
+
+
+#headerPrincipal {
+    background-color: #012332;
+    color: aliceblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 90px;
+}
+
+.footerCompleto {}
+
+
+
+
+.btnFooter {
+    border-radius: 0%;
+    border-width: 5px;
+    background-Color: #012332;
+    color: #C0C4C6;
+}
+
+.logoFooter {
+    text-decoration: none;
+
+}
+
+.botonMenu {
+    cursor: pointer;
+}
+
+.botonMenu:hover {
+    opacity: 0.7;
+}
+
+.footer,
+.enum {
+    background-color: #343a40;
+
+    color: whitesmoke;
+    border: 0px;
+}
+
+.enum:hover {
+    background-color: #C0C4C6;
+}
+
+.btnFooter:hover {
+    background-color: #C0C4C6;
+
+}
+
+.menu,
+.item {
+    border-radius: 20px;
+    color: #f8982b;
+}
+
+.item:hover {
+    background-color: #C0C4C6;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+
+.art {
+    display: flex;
+    flex-direction: column;
+    transition:  all 0.5s forwards;
+    transform-origin: bottom;
+    transition:1.0s;
+
+}
+
+
+.art:hover {
+    opacity: 0.90;
+    transform: scale(1.15, 1.15);
+    transition-duration:1.5s; 
+}
+
+.subtitulo,.titulocont{
+    color : black ;  
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+}
+.titulocont{
+    font-weight: 800;
+}
+
+.tit{
+    cursor: default
+}
