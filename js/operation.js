@@ -43,7 +43,7 @@ camera.position.z = 15;
 function animate() {
     requestAnimationFrame(animate);
     sphere.rotation.x +=0.0000015;
-    sphere.rotation.y +=0.00055;
+    sphere.rotation.y +=0.0055;
     rendered.render(scene, camera);
 };
 
