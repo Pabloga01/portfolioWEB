@@ -1,0 +1,110 @@
+
+
+<!DOCTYPE html>
+
+<head>
+    <title> Bootstrap</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <script src="./bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header" class="row mb-5 me-0 ml-0 " style="background-color: #333333; font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">
+        <div id="titulos" class="col-6 ">
+            <h1 class="display-5 text-secondary"><a style="color: #c0cab6 ; font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Plantilla 1</a></h1>
+            <h2 class="display-7 small text-secondary"><a class="" style="color: #c0cab6">Reproduce esta plantilla</a>
+            </h2>
+        </div>
+        <nav id="menu" class="col-6 row  navbar navbar-expand-lg ">
+            <ul class="nav nav-pills justify-content-center text-light ">
+                <li class="nav-item  bg-dark"><a style="color: #c0cab6" class="nav-link" href="#">Text link</a></li>
+                <li class="nav-item bg-dark"><a style="color: #c0cab6" class="nav-link" href="#">Text link</a></li>
+                <li class="nav-item  bg-dark"><a style="color: #c0cab6" class="nav-link" href="#">Text link</a></li>
+                <li class="nav-item  bg-dark"><a style="color: #c0cab6" class="nav-link" href="#">Text link</a></li>
+                <li class="nav-item  bg-dark"><a style="color: #c0cab6" class="nav-link" href="#">Text link</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- contenido principal -->
+    <div id="content" class="row container mx-auto">
+        <!-- imagen -->
+        <section id="imagen" class="row ">
+            <img class="col-12" src="img/960x360.gif" class="w-100">
+        </section>
+        
+        <section id="articulos" class="row mt-5 mb-5 ">
+            <article id="articulo1" class=" col-4 ">
+                <div id="imagenArt" class="">
+                    <img src="img/290x180.gif" class="w-100 border border-3 border-danger rounded">
+                </div>
+                <div id="contenidoTexto">
+                    <h2 class="h6" style="font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Indonectetus facilis</h2>
+                    <p class="fst-italic display-7" style="color: #60645cb6">Nullamlacus dui ipsum conseque loborttis
+                        non euisque morbi penas dapibulum orna.</p>
+                    <p class="text-end"><a style="color: orange; font-family: Georgia, 'Times New Roman', Times, serif, Times, serif" href="#">Read More&gt&gt</a></p>
+                </div>
+            </article>
+
+            <article id="articulo2" class="col-4">
+                <div id="imagenArt">
+                    <img src="img/290x180.gif" class="w-100 border border-3 border-danger black">
+                </div>
+                <div id="contenidoTexto">
+                    <h2 class="h6" style="font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Indonectetus facilis </h2>
+                    <p class="fst-italic display-7" style="color : #60645cb6 ;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Nullamlacus dui ipsum conseque loborttis
+                        non euisque morbi penas dapibulum orna.</p>
+                    <p class="text-end display-7"><a style="color: orange;  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif" href="#">Read More&gt&gt</a></p>
+                </div>
+            </article>
+            
+            <article id="articulo3" class="col-4">
+                <div id="imagenArt">
+                    <img src="img/290x180.gif" class="w-100 border border-3 border-danger rounded">
+                </div>
+                <div id="contenidoTexto">
+                    <h2 class="h6" style="font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Indonectetus facilis</h2>
+                    <p class="fst-italic display-7 " style="color: #60645cb6; font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Nullamlacus dui ipsum conseque loborttis
+                        non euisque morbi penas dapibulum orna.</p>
+                    <p class="text-end display-7"><a style="color: orange; font-family: Georgia, 'Times New Roman', Times, serif, Times, serif" href="#">Read More&gt&gt</a></p>
+                </div>
+            </article>
+        </section>
+
+    </div>
+    <footer id="footer" class=" col-12 row mx-auto " style="background-color: #333333 ">
+        <div id="textoFooter" style="background-color: black;" class="w-100 h-50 bg-black mt-5  ">
+            <p class="container bg-black display-7" style="background-color: #000; color: #c0cab6 ;font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Diseño de Interfaces Web IES Comercio</p>
+        </div>
+    </footer>
+    <!-- <footer id="footer" class="container-fluid  px-0" style="background-color: #333333">
+        <div id="textoFooter" style="background-color: black;" class="w-100 h-50 bg-black mt-5 mb-10 ">
+            <p class="container bg-black display-7" style="background-color: #000; color: #c0cab6 ;font-family: Georgia, 'Times New Roman', Times, serif, Times, serif">Diseño de Interfaces Web IES Comercio</p>
+        </div>
+    </footer> -->
+
+    <script>
+    //     document.querySelectorAll("*").forEach(
+    //         function (elemento) {
+    //             elemento.style.border = "1px solid red"
+    //         }
+    //    );
+    </script>
+</body>
+
+<!-- .lead	Makes a paragraph stand out	
+.text-start	Indicates left-aligned text	
+.text-break	Prevents long text from breaking layout	
+.text-center	Indicates center-aligned text	
+.text-decoration-none	Removes the underline from a link	
+.text-end	Indicates right-aligned text	
+.text-nowrap	Indicates no wrap text	
+.text-lowercase	Indicates lowercased text	
+.text-uppercase	Indicates uppercased text	
+.text-capitalize	Indicates capitalized text	
+.initialism	Displays the text inside an <abbr> element in a slightly smaller font size	
+.list-unstyled	Removes the default list-style and left margin on list items (works on both <ul> and <ol>). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)	
+.list-inline	Places all list items on a single line (used together with .list-inline-item on each <li> elements) -->

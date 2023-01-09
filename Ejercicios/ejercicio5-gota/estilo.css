@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    overflow: hidden;
+    background: url(./img/agua.jpg);
+    background-position: center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trigger {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.onda{
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 1000%;
+    background-color: transparent;
+}
+
+.onda1 {
+    animation: goteo 4s infinite;
+    transform-origin: center;
+    animation-delay: 0.3s;
+}
+
+.onda2 {
+    animation: goteo 4s infinite;
+    transform-origin: center;
+    animation-delay: 0.6s;
+}
+
+.onda3{
+    animation: goteo 4s infinite;
+    transform-origin: center;
+    animation-delay: 0.9s;
+}
+.onda4{
+    animation: goteo 4s infinite;
+    transform-origin: center;
+    animation-delay: 1.2s;
+}
+
+
+@keyframes goteo {
+    0% {
+        scale: 1;
+        border: 1px solid #d7d7d7;
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 1;
+    }
+    100% {
+        scale: 10;
+        border: 1px solid #d7d7d7;
+        opacity: 0;
+    }
+}

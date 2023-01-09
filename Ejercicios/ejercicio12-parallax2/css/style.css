@@ -1,0 +1,25 @@
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #renfe2022 {
+    background-image: url("../img/renfe2022.png");
+  }
+  
+  #renfe2012 {
+    background-image: url("../img/renfe2012.png");
+  }
+  
+  #renfe2005{
+    background-image: url("../img/renfe2005.png");
+  }
+  
+  
+  body {
+    margin: 0 auto;
+    width: 800px;
+    height: 300vh;
+  }

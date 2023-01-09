@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#linea {
+    margin-top: 1%;
+    width: 100%;
+    border-block-end: 1px solid gray;
+
+
+}
+
+#iconoIg {
+    width: 3%;
+    height: 3%;
+    margin-left: 20%;
+}
+
+#labelIg {
+    margin-left: 1%;
+    width: 8.5%;
+    height: 8%;
+}
+
+#fbuscador {
+    margin-left: 15%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+#buscador1 {
+    max-height: 80%;
+    max-width: 80%;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    color: gray;
+    font-size: 105%;
+}
+
+
+#contenido {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    height: 49em;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 0.4px solid gray;
+}
+
+
+
+#contFoto {
+    background-image: url("../img/foto.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#feed {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5%;
+    width: 53%;
+
+}
+
+#nombrePerfil {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+
+}
+
+#fotoPerfil {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#iconoPerfil {
+
+    width: 95%;
+}
+
+
+#infoPerfil {
+    width: 130;
+}
+
+
+#perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1.5em;
+
+
+}
+
+#perfil a {
+    padding-left: 8%;
+    text-decoration: none;
+    color: rgb(3, 59, 182);
+
+}
+
+#ubicacion {
+    height: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 85%;
+}
+
+
+
+#comentarioPost {
+    margin-top: 3%;
+    width: 100%;
+
+}
+
+#foto_comentario {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#fotoComentario {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#iconoPerfil2 {
+    width: 95%;
+}
+
+#textoComentario {
+    width: 70%;
+    font-size: 115%;
+}
+
+#tiempo1comentario {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    color: gray;
+    ;
+
+}
+
+
+#fechaPost {
+    margin-top: 10%;
+}
+
+
+#iconoMas {
+    display: flex;
+    justify-content: center;
+}
+
+#imgIconoMas {
+    width: 8%;
+    height: 8%;
+}
+
+
+#iconoPerfil3 {
+    width: 95%;
+}
+
+#sp1 {
+    color: #000;
+}
+
+
+#lineaInfo {
+    border-top: 2px solid black;
+    width: 102%;
+    margin-top: 50%;
+    margin-left: -1.7%;
+
+}
+
+#informacion {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.icono {
+    width: 8%;
+    margin-left: 3%;
+}
+
+#imgComentario {
+    scale: 1.2;
+}
+
+#imgGuardar {
+    margin-left: 57%;
+}
+
+#contador {
+    margin-left: 3%;
+}
+
+#contador p {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#lineaSep {
+    border-top: 1px solid gray;
+    width: 102%;
+    margin-left: -1.6%;
+    margin-top: 4%;
+}
+
+#login {
+    font-size: 105%;
+    width: 70%;
+    margin-left: 3%;
+
+}
+
+#login a {
+    text-decoration: none;
+    font-size: 110%;
+    color: rgb(3, 59, 182);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}

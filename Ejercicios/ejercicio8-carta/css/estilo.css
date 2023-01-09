@@ -1,0 +1,50 @@
+.carta {
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    transition: all 1s;
+}
+
+.carta > div {
+    width: 20%;
+    height: 51%;
+    position: absolute;
+
+}
+
+.reves{
+    z-index:2;
+    transition: all 0.5s;
+}
+
+#cartaDiv .reves {
+    background-image: url("../img/reverso.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.adelante{
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+#cartaDiv .adelante {
+    background-image: url("../img/carta.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.carta:hover >div{
+    transform: rotateY(180deg);
+}
+
+.carta:hover .adelante {
+    z-index: 2;
+}
+.carta:hover .reves{
+    z-index: 1;
+} 
+

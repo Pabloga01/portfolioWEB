@@ -1,0 +1,227 @@
+
+
+
+
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#iconoIg {
+    width: 4%;
+    height: 3%;
+    margin-left: 10%;
+}
+
+#labelIg {
+    margin-left: 1%;
+    width: 13%;
+    height: 8%;
+}
+
+#fbuscador {
+    margin-left: 15%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+#buscador1 {
+    max-height: 80%;
+    max-width: 80%;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    color: gray;
+    font-size: 90%;
+}
+
+
+  
+
+
+
+#fotoGrande{
+    width: 100%;
+    height: auto;
+  
+} 
+
+#seccion3 {
+   
+    margin: 0;
+    padding-left: 20px;  
+    
+    
+  }
+  .espacio{
+  padding-top: 10px;
+  padding-left: 20px;  
+}
+
+/* #love:hover{
+    visibility: hidden;
+    background-image: url('../images/love2.png');
+} */
+.botones{
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+
+#bookmark{
+float:right;
+
+
+}
+
+.gris{
+    color: gray;
+    font-size: 11px;
+}
+
+.avatar{
+   margin-top: 1%;
+  
+    float: left;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .perfil{
+    padding-left: 2%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+   .perfil h6{
+  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+ 
+    
+
+  }
+  .perfil p{
+  
+    margin-top: 0px;
+    font-size: 10px;
+  
+  } 
+
+  
+  
+  #add{
+    width: 2rem;
+    display: block;
+    margin: auto;
+    
+
+  }
+
+
+
+  #footer{
+    background-color: rgba(125, 124, 124, 0.195);
+   border-radius: 2%;
+    padding:5%;
+  }
+
+  /* @media only screen and (min-width: 850px) {
+    body {
+      background-color:lightgreen ;
+    }
+  } */
+
+  /* 
+  
+  a partir de 850 cambian cosas
+  @media only screen and (min-width: 850px) {
+  body {
+    background-color:lightgreen ;
+  }
+} */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+[class*="col-"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+.movil{
+  display: block;
+}
+.pc{
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .pc{display: block;}
+  .movil{
+    display: none;
+  }
+}
